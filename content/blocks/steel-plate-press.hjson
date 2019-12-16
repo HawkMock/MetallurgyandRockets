@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Steel Plate Press
+description: Powerful hydraulic press used to hammer steel ingots into heavy sheets.
+size: 4
+itemCapacity: 25
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 80
+updateEffect: smeltsmoke
+consumes: {
+  power: 15.0
+  items: {
+    items: [
+      steel-ingot/2
+    ]
+  }
+}
+requirements: [
+  lead/200
+  copper/400
+  titanium/200
+  thorium/100
+  steel-ingot/10
+]
+category: crafting
+research: blast-furnace
+outputItem: steel-plate/1

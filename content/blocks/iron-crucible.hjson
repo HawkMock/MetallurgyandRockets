@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: "Iron Crucible"
+description: "Melts and purifies iron for use in making ingots."
+liquidCapacity: 50
+outputLiquid: {
+  liquid: molten-iron
+  amount: 10
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      ferric-clay/2
+    ]
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+  titanium/20
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

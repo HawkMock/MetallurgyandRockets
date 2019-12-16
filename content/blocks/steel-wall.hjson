@@ -1,0 +1,10 @@
+name: Steel Wall
+description: A large shiny wall.
+type: Wall
+health: 5000
+size: 3
+requirements: [
+  steel-ingot/20
+]
+category: defense
+research: tungsten-wall

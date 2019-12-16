@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Zinc Ingot Cast
+description: Used to cast zinc ingots.
+liquidCapacity: 200
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  liquid: {
+    liquid: molten-zinc
+    amount: 0.25
+  }
+}
+requirements: [
+  lead/40
+  thorium/30
+  silicon/60
+  tungsten-ingot/25
+]
+category: crafting
+research: zinc-crucible
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: {
+   item: zinc-ingot
+   amount: 1
+}
+flameColor: 4064db

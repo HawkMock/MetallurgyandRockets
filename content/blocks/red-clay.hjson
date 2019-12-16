@@ -1,0 +1,5 @@
+type: floor
+name: Red Clay
+itemDrop: ferric-clay
+variants: 3
+playerUnmineable: true

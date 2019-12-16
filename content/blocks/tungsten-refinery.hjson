@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Tungsten Refinery"
+description: "Refines wolfram into pure ingots of tungsten metal."
+liquidCapacity: 50
+outputItem: {
+  item: tungsten-ingot
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 4
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: wolfram
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

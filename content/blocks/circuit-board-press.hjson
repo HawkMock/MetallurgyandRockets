@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Circuit Board Press
+description: Expensive factory for producing high-tech curcuit boards.
+size: 4
+itemCapacity: 25
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 400
+updateEffect: smeltsmoke
+consumes: {
+  power: 15.0
+  items: {
+    items: [
+      copper/10
+      silicon/15
+      phase-fabric/5
+    ]
+  }
+}
+requirements: [
+  lead/100
+  silicon/100
+  copper/500
+  graphite/50
+  thorium/20
+  tungsten-ingot/90
+  zinc-ingot/55
+  titanium/65
+]
+category: crafting
+research: phase-weaver
+outputItem: circuit-board/1

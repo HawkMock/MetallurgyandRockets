@@ -1,0 +1,25 @@
+name: Excavator
+description: A bucket based mining rig that excels at harvesting soft materials like clay, gravel, and sand.
+type: Drill
+size: 3
+tier: 0
+drillTime: 100
+consumes: {
+  power: 3
+  liquid: {
+    liquid: water
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  tungsten-ingot/10
+  steel-ingot/10
+  copper/100
+  lead/50
+]
+liquidBoostIntesity: 2.4
+rotateSpeed: 1.5
+category: production
+research: laser-drill

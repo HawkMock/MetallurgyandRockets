@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: "Zinc Crucible"
+description: "Melts and purifies zinc for cooling into ingots."
+liquidCapacity: 40
+outputLiquid: {
+  liquid: molten-zinc
+  amount: 10
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 45
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.4
+  items: {
+    items: [
+      zinc-dust/4
+    ]
+  }
+}
+requirements: [
+  lead/30
+  copper/60
+  graphite/10
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

@@ -1,0 +1,10 @@
+name: Tungsten Wall
+description: A dull, heavy wall.
+type: Wall
+health: 4000
+size: 2
+requirements: [
+  tungsten-ingot/40
+]
+category: defense
+research: thorium-wall
