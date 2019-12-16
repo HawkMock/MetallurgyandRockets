@@ -1,0 +1,6 @@
+name: Molten Zinc
+description: Pure molten zinc. Can be cooled into ingots.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: 00a8f3

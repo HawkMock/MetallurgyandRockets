@@ -1,0 +1,6 @@
+name: Molten Iron
+description: Hot molten iron. Can be cooled into ingots.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: fe7379
