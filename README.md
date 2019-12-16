@@ -1,4 +1,4 @@
-# VanillaPlus
+# Metallurgy and Rockets
 Builds upon the base ideas of the Mindustry game.
 
 ## Importing
