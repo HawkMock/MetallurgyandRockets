@@ -1,0 +1,5 @@
+type: material
+name: Iron Ingot
+description: A heavy ingot of metal with magical magnetic properties.
+cost: 4.0
+color: 888888

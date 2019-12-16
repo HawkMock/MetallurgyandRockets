@@ -1,0 +1,5 @@
+type: resource
+name: Ferric Clay
+description: Clay containing high amounts of iron.
+color: 948d00
+hardness: 0

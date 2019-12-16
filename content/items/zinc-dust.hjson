@@ -1,0 +1,5 @@
+type: resource
+name: Zinc Dust
+description: Finely granulated zinc. Can be smelted in a zinc crucible.
+color: 10b8ff
+hardness: 0

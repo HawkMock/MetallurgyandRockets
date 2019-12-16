@@ -1,0 +1,5 @@
+type: resource
+name: Circuit Board
+description: Advanced electronic hardware.
+cost: 3.0
+color: 00881b

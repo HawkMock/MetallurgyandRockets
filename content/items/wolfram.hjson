@@ -1,0 +1,5 @@
+type: resource
+name: Wolfram
+description: A valuable, heavy stone.
+hardness: 4
+color: 88001b

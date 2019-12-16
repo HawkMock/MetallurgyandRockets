@@ -1,0 +1,5 @@
+type: material
+name: Zinc Ingot
+description: A large lump of zinc.
+cost: 3.0
+color: 00a8f3

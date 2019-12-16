@@ -1,0 +1,5 @@
+type: resource
+name: Steel Plate
+description: Huge square of heavy metal.
+cost: 3.0
+color: 8e93ad

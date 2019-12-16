@@ -1,0 +1,5 @@
+type: material
+name: Tungsten Ingot
+description: A purified metallic form of wolfram.
+cost: 3.0
+color: 88001b

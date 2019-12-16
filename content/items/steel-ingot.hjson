@@ -1,0 +1,5 @@
+type: material
+name: Steel Ingot
+description: A hardened, reforged iron ingot.
+cost: 4.5
+color: 8e93ad

@@ -1,0 +1,5 @@
+type: resource
+name: Armor Piercing Rocket
+description: Long range projectile with advanced homing capabilities. Constructed for maximum damage on impact.
+cost: 3.0
+color: 888899

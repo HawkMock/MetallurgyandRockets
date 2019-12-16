@@ -1,0 +1,7 @@
+type: resource
+name: Thermite Rocket
+description: Long range projectile with advanced homing capabilities. Armed with a phyrotechnic warhead.
+cost: 3.0
+color: aa8888
+flamability: 0.3
+explosiveness: 0.3
