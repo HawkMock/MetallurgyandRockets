@@ -1,0 +1,34 @@
+name: Isolated Tundra
+description: A new location has been discovered that is rich with fossil fuels. However, snow storms in the area leave mining operations blind and vulnerable to air attacks.
+loadout: basicFoundation
+startingItems: [
+  copper/3000
+  lead/3000
+  graphite/500
+  metaglass/200
+  silicon/100
+  titanium/800
+  thorium/500
+  tungsten-ingot/100
+  zinc-ingot/100
+]
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: rustyMesa
+    wave: 25
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  scrap
+  sand
+  titanium
+  thorium
+  wolfram
+  zinc-dust
+]

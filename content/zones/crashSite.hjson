@@ -1,0 +1,42 @@
+name: Crash Site
+description: A large alien wreckage was located. Investigate the area. Utilize scrap to set up defenses.
+loadout: basicFoundation
+startingItems: [
+  copper/1000
+  lead/1000
+  graphite/200
+  silicon/200
+  metaglass/50
+  titanium/300
+  thorium/100
+  tungsten-ingot/50
+  zinc-ingot/50
+]
+conditionWave: 20
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: rustyMesa
+    wave: 25
+  }
+  {
+    type: Unlock
+    block: rocket-launcher
+  }
+  {
+    type: Unlock
+    block: steel-plate-press
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  scrap
+  sand
+  titanium
+  thorium
+  wolfram
+  zinc-dust
+]

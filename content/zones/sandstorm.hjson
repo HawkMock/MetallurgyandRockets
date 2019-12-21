@@ -1,0 +1,38 @@
+name: Sandstorm
+description: An abandoned power station previously completely covered in sand has recently been unearthed. Weather in the area is harsh.
+loadout: basicNucleus
+startingItems: [
+  copper/1000
+  lead/1000
+  graphite/200
+  titanium/300
+  thorium/100
+]
+conditionWave: 20
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: tarFields
+    wave: 60
+  }
+  {
+    type: Unlock
+    block: zinc-crucible
+  }
+  {
+    type: Unlock
+    block: tungsten-refinery
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  scrap
+  sand
+  titanium
+  thorium
+  wolfram
+  zinc-dust
+]

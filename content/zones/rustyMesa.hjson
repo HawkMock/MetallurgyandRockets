@@ -1,0 +1,42 @@
+name: Rusty Mesa
+description: A hot, desert environment populated with tall, rocky cliffs. A team was dispatched into the are to set up mineshafts in order to allow travevl between isolated valleys. Readings indicate that conditions are ideal for iron accumulation in the clay.
+loadout: basicNucleus
+startingItems: [
+  copper/1000
+  lead/1000
+  graphite/200
+  silicon/200
+  titanium/300
+  thorium/100
+  tungsten-ingot/50
+  zinc-ingot/50
+]
+conditionWave: 20
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: sandstorm
+    wave: 20
+  }
+  {
+    type: Unlock
+    block: iron-crucible
+  }
+  {
+    type: Unlock
+    block: iron-ingot-cast
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  scrap
+  sand
+  titanium
+  thorium
+  wolfram
+  zinc-dust
+  ferric-clay
+]
