@@ -1,7 +1,0 @@
-type: resource
-name: Nuclear Rocket
-description: Long range projectile with advanced homing capabilities. Equipped with explosive nuclear warhead.
-cost: 3.0
-color: 998888
-explosiveness: 0.3
-radioactivity: 0.2
