@@ -1,6 +1,0 @@
-type: resource
-name: Frag Rocket
-description: Long range projectile with advanced homing capabilities. Releases frag on impact.
-cost: 3.0
-color: 889988
-explosiveness: 0.3
