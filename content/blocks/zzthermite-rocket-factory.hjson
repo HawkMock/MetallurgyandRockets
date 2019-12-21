@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Thermite Rocket Factory
+description: Factory capable of producing high-tech thermite projectiles.
+size: 5
+itemCapacity: 20
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 500
+updateEffect: smeltsmoke
+consumes: {
+  power: 12.0
+  items: {
+    items: [
+      steel-plate/10
+      circuit-board/4
+      pyratite/10
+    ]
+  }
+}
+requirements: [
+  lead/200
+  copper/300
+  graphite/75
+  thorium/35
+  tungsten-ingot/80
+  steel-ingot/40
+  titanium/20
+]
+category: crafting
+research: zznuclear-rocket-factory
+outputItem: zzthermite-rocket/1
