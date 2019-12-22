@@ -17,7 +17,7 @@ launchPeriod: 10
 requirements: [
   {
     type: ZoneWave
-    zone: rustyMesa
+    zone: rusty-mesa
     wave: 25
   }
   {
