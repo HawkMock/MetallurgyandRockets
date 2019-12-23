@@ -86,7 +86,7 @@ ammo: {
     speed: 4
     splashDamageRadius: 1
     frontColor: 000088
-    bulletSprite: metallurgy-and-rockets-zzarmor-piercing--rocket
+    bulletSprite: metallurgy-and-rockets-zzarmor-piercing-rocket
     backColor: 888888
     homingPower: 3
     homingRange: 1000
