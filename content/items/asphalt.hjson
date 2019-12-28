@@ -1,0 +1,5 @@
+type: material
+name: Asphalt
+description: A heavy, hardened mixture of pitch and coarse sand.
+cost: 2.0
+color: 333333

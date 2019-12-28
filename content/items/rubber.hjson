@@ -1,0 +1,5 @@
+type: resource
+name: Rubber
+description: Thick durable synthetic material.
+cost: 0.5
+color: 222222

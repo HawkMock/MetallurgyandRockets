@@ -1,0 +1,5 @@
+type: resource
+name: Concrete
+description: A material highly resistant to compressive stress.
+cost: 2.0
+color: c0cccc

@@ -1,0 +1,5 @@
+type: material
+name: Carbonfiber
+description: An advanced, strong material with high tensile resistance. Necessary for construction of high tier drones.
+cost: 2.0
+color: 666688
