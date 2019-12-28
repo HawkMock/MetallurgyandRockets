@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Rubber Factory
+description: Uses refined oil to produce high grade synthetic rubber polymers.
+size: 3
+itemCapacity: 20
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 250
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.2
+  liquid: {
+    liquid: oil
+	amount: 0.2
+  }
+}
+requirements: [
+  copper/45
+  lead/30
+  thorium/15
+]
+category: crafting
+research: carbonfiber-press
+outputItem: rubber/3

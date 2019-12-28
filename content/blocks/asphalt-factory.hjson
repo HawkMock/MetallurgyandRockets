@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Asphalt Factory
+description: Combines pitch and gravel to manufacture asphalt.
+size: 3
+itemCapacity: 15
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      sand/8
+    ]
+  }
+  liquid: {
+    liquid: oil
+	amount: 0.25
+  }
+}
+requirements: [
+  lead/50
+  tungsten-ingot/25
+  steel-ingot/5
+]
+category: crafting
+research: carbonfiber-press
+outputItem: asphalt/2

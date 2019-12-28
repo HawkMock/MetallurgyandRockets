@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Carbonfiber Press
+description: Complex loom used to produce durable carbonfiber.
+size: 3
+itemCapacity: 25
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 400
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      graphite/4
+      zinc-ingot/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/25
+  steel-ingot/5
+]
+category: crafting
+research: phase-weaver
+outputItem: carbonfiber/2
